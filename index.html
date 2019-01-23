@@ -6,6 +6,7 @@
   <title>ICPECA 2019</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="./static/css/main.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="./static/js/main.js"></script>
 </head>
 <body>
@@ -19,15 +20,18 @@
         </div>
       </div>
       
-      <nav>
-        <ul>
-          <li class=""><a href="/">Home</a></li>
-          <li class=""><a href="/committee.html">Committee</a></li>
-          <li class=""><a href="/papers.html">Call for Papers</a></li>
-          <li class=""><a href="/authors.html">For Authors</a></li>
-          <li class=""><a href="/dates.html">Important Dates</a></li>
-          <li class=""><a href="/register.html">Register</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <button class="nav-toggler" data-toggle="collapse" data-target="#Navbar"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="Navbar"> 
+          <ul class="">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="/committee.html" class="nav-link">Committee</a></li>
+            <li class="nav-item"><a href="/papers.html" class="nav-link">Call for Papers</a></li>
+            <li class=nav-item""><a href="/authors.html" class="nav-link">For Authors</a></li>
+            <li class="nav-item"><a href="/dates.html" class="nav-link">Important Dates</a></li>
+            <li class="nav-item"><a href="/register.html" class="nav-link">Register</a></li>
+          </ul>
+        </div>
       </nav>
     </section>
   </header>
@@ -109,5 +113,9 @@
       </div>
     </section>
   </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
