@@ -6,32 +6,40 @@
   <title>ICPECA 2019</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="./static/css/main.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <script src="./static/js/main.js"></script>
 </head>
 <body>
   <!--===== HEADER =====-->
   <header>
     <section>
-      <div class="hero">
+      <div class="hero img-fluid" style="min-height:300px;">
         <div class="container">
-          <h2>IEEE International Conference on Power Electronics, Control and Automation</h2>
-          <h1>ICPECA 2019</h1>
+          <div class="row align-items-center mt-3">
+            <div class="col-md-3 text-center">
+                  <img src="static/img/jamia.png" class="img-fluid" width=100px>
+                  <img src="static/img/ieee.jpeg" class="img-fluid ml-5" width=100px>
+            </div>
+            <div class="col-md-6 col-12">
+              <h4 class=" text-primary  font-weight-bold mt-2">IEEE International Conference on Power Electronics, Control and Automation 2019</h4>  
+            </div>
+          </div>
         </div>
       </div>
       
-      <nav class="navbar navbar-expand-sm navbar-light">
+      <nav class="navbar navbar-light navbar-expand-sm ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
-        </button>button class="nav-toggler" data-toggle="collapse" data-target="#Navbar"><span class="navbar-toggler-icon"></span></button>
+        </button>
         <div class="collapse navbar-collapse" id="Navbar"> 
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="/committee.html" class="nav-link">Committee</a></li>
-            <li class="nav-item"><a href="/papers.html" class="nav-link">Call for Papers</a></li>
-            <li class=nav-item""><a href="/authors.html" class="nav-link">For Authors</a></li>
-            <li class="nav-item"><a href="/dates.html" class="nav-link">Important Dates</a></li>
-            <li class="nav-item"><a href="/register.html" class="nav-link">Register</a></li>
+          <ul class="navbar-nav row w-100 mx-auto">
+            <li class="nav-item active col text-center"><a href="/" class="nav-link font-weight-bold">Home</a></li>
+            <li class="nav-item col text-center"><a href="/committee.html" class="nav-link font-weight-bold">Committee</a></li>
+            <li class="nav-item col text-center"><a href="/papers.html" class="nav-link font-weight-bold">Call for Papers</a></li>
+            <li class="nav-item col text-center"><a href="/authors.html" class="nav-link font-weight-bold">For Authors</a></li>
+            <li class="nav-item col text-center"><a href="/dates.html" class="nav-link font-weight-bold">Important Dates</a></li>
+            <li class="nav-item col text-center"><a href="/register.html" class="nav-link font-weight-bold">Register</a></li>
           </ul>
         </div>
       </nav>
@@ -45,8 +53,9 @@
         <!-- Left Flank -->
         <div class="widget">
           <h3 class="widget-title">Contact</h3>
-          <div class="widget-body">
-            <p>ieeejmiteam@gmail.com</p>
+          <div class="widget-body text-center">
+            <a href="mailto:ieeejmiteam@gmail.com" ><i class="fa fa-envelope text-dark"></i></a>
+            <a href="callto:+9198989898989898" class="ml-4"><i class="fa fa-phone text-dark"></i></a>
           </div>
         </div>
 
@@ -68,7 +77,26 @@
       <article class="main">
         <!-- Main Body Article -->
         <h2 class="main-article-title">ICPECA 2019</h2>
-        <img class="main-article-image" src="./static/img/jamia.jpg" alt="jamia">
+        <div id="carousel" class="slide carousel border" data-ride="carousel">
+          <div class="carousel-inner p-1">
+            <div class="carousel-item text-center active">
+              <img class="img-fluid" src="./static/img/jamia.jpg" alt="jamia"  style="height:300px;">
+            </div>
+            <div class="carousel-item text-center">
+              <img class="img-fluid" src="./static/img/jamiaplane.jpeg" alt="jamia"  style="height:300px;">
+            </div>
+            <div class="carousel-item text-center">
+              <img class="img-fluid" src="./static/img/qutub-minar.jpg" alt="jamia"  style="height:300px;">
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+          <a class="carousel-control-prev text-primary" href="#carousel" role="button" data-slide="prev"><i class="fa fa-lg fa-chevron-left"></i></a>
+          <a class="carousel-control-next text-primary" href="#carousel" role="button" data-slide="next"><i class="fa fa-lg fa-chevron-right"></i></a>
+        </div>
         <div class="main-article-text">
           <p>
             <b>Jamia Millia Islamia,</b> a Central University, is organizing 
@@ -99,7 +127,14 @@
         <div class="widget">
           <h3 class="widget-title">Sponsors</h3>
           <div class="widget-body">
-            <p>Coming Soon</p>
+            <div class="container">
+              <div class="row">
+                <img class="img-fluid col-6" src="static/img/ias-png.png" >
+                <img class="img-fluid col-6" src="static/img/pels-logo.png" >
+                <img class="img-fluid col-6" src="static/img/IEEE-PES.png" >
+                <img class="img-fluid col-6" src="static/img/iims.png" >
+              </div>
+            </div>
           </div>
         </div>
       </article>
