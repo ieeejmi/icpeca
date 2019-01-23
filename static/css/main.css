@@ -34,7 +34,7 @@ h1 {
     background-blend-mode: hard-light;
     text-align: center;
 }
-
+/* 
 /* Navigation */
 nav {
     display: flex;
@@ -55,7 +55,7 @@ nav li {
 } nav li a {
     text-decoration: none;
     color: #000;
-}
+} */
 
 /* Body */
 .body {
