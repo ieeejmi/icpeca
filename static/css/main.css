@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 800;
+} h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+} h3 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Hero */
+.hero {
+    height: 250px;
+    background-image: url('../img/delhi-skyline.jpg');
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-blend-mode: hard-light;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: fit-content;
+    background-color: #4fbeff;;
+} nav ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    padding: 2em 1em;
+} nav li:hover {
+    background-color: #008cff;
+} nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Body */
+.body {
+    display: flex;
+    flex-flow: row;
+} @media(max-width: 600px) {
+    .body {
+        flex-flow: column;
+    } 
+}
+
+.widget {
+    display: block;
+    padding: 0.5em;
+    margin: 1em;
+    background-color: #acf9ff;
+} .widget-title {
+    padding: 0.5em;
+    margin-bottom: 0;
+    background-color: #0039b4;
+    color: #fff;
+} .widget-body {
+    display: flex;
+    flex-flow: column;
+    padding: 0.5em;
+}
+
+.main {
+    max-width: 500px;
+    margin: 1em;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+} .main-article-title {
+
+} .main-article-image {
+    position: relative;
+    width: 100%;
+} .main-article-text {
+    line-height: 1.5em;
+}
+    
+/* Footer */
+footer {
+    padding: 2em;
+    background-color: #000;
+    color: #fff;
+}
