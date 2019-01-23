@@ -29,11 +29,14 @@ h1 {
 .hero {
     height: 250px;
     background-image: url('../img/delhi-skyline.jpg');
-    background-repeat: repeat-x;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: hard-light;
     text-align: center;
 } 
+.navbar-light{
+    background-color: #e3f2fd;
+}
 /* Navigation */
 /* nav {
     display: flex;
@@ -70,15 +73,15 @@ nav li {
     display: block;
     padding: 0.5em;
     margin: 1em;
-    background-color: #acf9ff;
+    background-color: #e3f2fd;
 } .widget-title {
     padding: 0.5em;
     margin-bottom: 0;
-    background-color: #0039b4;
+    background-color: #1da1f2;
     color: #fff;
 } .widget-body {
-    display: flex;
-    flex-flow: column;
+    display: block;
+   /* flex-flow: column;*/
     padding: 0.5em;
 }
 
