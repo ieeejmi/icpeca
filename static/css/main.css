@@ -33,10 +33,9 @@ h1 {
     background-size: contain;
     background-blend-mode: hard-light;
     text-align: center;
-}
-/* 
+} 
 /* Navigation */
-nav {
+/* nav {
     display: flex;
     flex-flow: row;
     width: 100%;
@@ -55,7 +54,7 @@ nav li {
 } nav li a {
     text-decoration: none;
     color: #000;
-} */
+}  */
 
 /* Body */
 .body {
