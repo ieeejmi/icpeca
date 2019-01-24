@@ -73,6 +73,7 @@ nav li {
     display: block;
     padding: 0.5em;
     margin: 1em;
+    max-width: 250px;
     background-color: #e3f2fd;
 } .widget-title {
     padding: 0.5em;
@@ -100,6 +101,15 @@ nav li {
     line-height: 1.5em;
 }
     
+.sponsors {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+} .sponsor-logo {
+    max-width: 150px;
+    height: 100px;
+}
+
 /* Footer */
 footer {
     padding: 2em;
