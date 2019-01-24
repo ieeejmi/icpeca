@@ -6,28 +6,48 @@
   <title>ICPECA 2019</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="./static/css/main.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <script src="./static/js/main.js"></script>
 </head>
 <body>
   <!--===== HEADER =====-->
   <header>
     <section>
-      <div class="hero">
+      <div class="hero" style="min-height:300px;">
         <div class="container">
-          <h2>IEEE International Conference on Power Electronics, Control and Automation</h2>
-          <h1>ICPECA 2019</h1>
+          <div class="row align-items-center mt-3">
+            <div class="col-md-3 text-center">
+              <img src="static/img/jamia.png" class="img-fluid" width=100px>
+            </div>
+            <div class="col-md-6 col-12">
+              <h4 class="d-none d-md-block text-primary  font-weight-bold mt-2">
+                IEEE International Conference on Power Electronics, 
+                Control and Automation 2019
+              </h4> 
+              <h1 class="d-block d-md-none text-primary font-weight-bold">ICPECA 2019</h1> 
+            </div>
+            <div class="col-md-3 text-center">
+              <img src="static/img/ieee.jpeg" class="img-fluid ml-5" width=100px>
+            </div>
+          </div>
         </div>
       </div>
       
-      <nav>
-        <ul>
-          <li class=""><a href="/">Home</a></li>
-          <li class=""><a href="/committee.html">Committee</a></li>
-          <li class=""><a href="/papers.html">Call for Papers</a></li>
-          <li class=""><a href="/authors.html">For Authors</a></li>
-          <li class=""><a href="/dates.html">Important Dates</a></li>
-          <li class=""><a href="/register.html">Register</a></li>
-        </ul>
+      <nav class="navbar navbar-light navbar-expand-sm">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar"> 
+          <ul class="navbar-nav row w-100 mx-auto">
+            <li class="nav-item active col text-center"><a href="/" class="nav-link font-weight-bold">Home</a></li>
+            <li class="nav-item col text-center"><a href="/committee.html" class="nav-link font-weight-bold">Committee</a></li>
+            <li class="nav-item col text-center"><a href="/papers.html" class="nav-link font-weight-bold">Call for Papers</a></li>
+            <li class="nav-item col text-center"><a href="/authors.html" class="nav-link font-weight-bold">For Authors</a></li>
+            <li class="nav-item col text-center"><a href="/dates.html" class="nav-link font-weight-bold">Important Dates</a></li>
+            <li class="nav-item col text-center"><a href="/register.html" class="nav-link font-weight-bold">Register</a></li>
+          </ul>
+        </div>
       </nav>
     </section>
   </header>
@@ -35,49 +55,9 @@
   <!--=====  BODY =====-->
   <section>
     <div class="body container">
-      <article>
-        <!-- Left Flank -->
-        <div class="widget">
-          <h3 class="widget-title">Contact</h3>
-          <div class="widget-body">
-            <p>ieeejmiteam@gmail.com</p>
-          </div>
-        </div>
-
-        <div class="widget">
-          <h3 class="widget-title">Latest Updates</h3>
-          <div class="widget-body">
-            <p>Coming Soon</p>
-          </div>
-        </div>
-
-        <div class="widget">
-          <h3 class="widget-title">Keynote Speakers</h3>
-          <div class="widget-body">
-            <p>Coming Soon</p>
-          </div>
-        </div>
-      </article>
-
       <article class="main">
         <!-- Main Body Article -->
         <h3 class="widget-title">Website under construcion</h3>
-      </article>
-
-      <article>
-        <!-- Right Flank -->
-        <div class="widget">
-          <h3 class="widget-title">Conference Dates</h3>
-          <div class="widget-body">
-            <p>Coming Soon</p>
-          </div>
-        </div>
-        <div class="widget">
-          <h3 class="widget-title">Sponsors</h3>
-          <div class="widget-body">
-            <p>Coming Soon</p>
-          </div>
-        </div>
       </article>
     </div>
   </section>
