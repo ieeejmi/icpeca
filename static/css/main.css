@@ -61,8 +61,8 @@ nav li {
 
 /* Body */
 .body {
-    display: flex;
-    flex-flow: row;
+    display: block;
+    /*flex-flow: row;*/
 } @media(max-width: 600px) {
     .body {
         flex-flow: column;
