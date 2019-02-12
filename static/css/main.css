@@ -21,7 +21,7 @@ h1 {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -73,7 +73,7 @@ nav li {
     display: block;
     padding: 0.5em;
     margin: 1em;
-    max-width: 250px;
+    max-width: 300px;
     background-color: #e3f2fd;
 } .widget-title {
     padding: 0.5em;
