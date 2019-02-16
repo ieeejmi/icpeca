@@ -53,17 +53,33 @@
   </header>
 
   <!--=====  BODY =====-->
-  <section>
-    <div class="body container">
-      <article>
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col text-center">
         <!-- Left Flank -->
         <div class="widget">
           <h3 class="widget-title">Contact</h3>
-          <div class="widget-body">
-            <p>ieeejmiteam@gmail.com</p>
+          <div class="widget-body text-center">
+            <a href="mailto:ieeejmiteam@gmail.com" ><i class="fa fa-envelope text-dark"></i></a>
+            <a href="callto:+9198989898989898" class="ml-4"><i class="fa fa-phone text-dark"></i></a>
           </div>
         </div>
 
+        <div class="widget">
+          <h3 class="widget-title">Important Dates</h3>
+          <div class="widget-body">
+            <div class="font-weight-bold text-info" style = "font-size: 17px;">Paper Submission:</div>
+            <h6><span class="text-success">Start</span> 01 March 2019</h6>
+            <h6><span class="text-danger">Deadline</span> 30 May 2019</h6>
+            <div class="font-weight-bold text-info" style = "font-size: 17px;">Acceptance Notification:</div>
+            <h6>20 July 2019</h6>
+            <div class="font-weight-bold text-info" style = "font-size: 17px;">Final Camera Ready Paper:</div>
+            <h6>20 August 2019</h6>
+            <div class="font-weight-bold text-info" style = "font-size: 17px;">Early Bird Registration:</div>
+            <h6>20 September 2019</h6>
+          </div>
+        </div>
+        
         <div class="widget">
           <h3 class="widget-title">Latest Updates</h3>
           <div class="widget-body">
@@ -74,12 +90,24 @@
         <div class="widget">
           <h3 class="widget-title">Keynote Speakers</h3>
           <div class="widget-body">
-            <p>Coming Soon</p>
+            <div class="media">
+              <img class="mr-1" style="height: 60px; width: 60px; border-radius: 50%;" src="static/img/SM.jpg">
+              <div class="media-body align-self-center">
+                <div class="mt-0  font-weight-bold" style="font-size:18px;">Prof. Saad Mekhilef</div>
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img class="mr-1" style="height: 60px; width: 60px; border-radius: 50%;" src="static/img/FB.jpg">
+              <div class="media-body align-self-center">
+                <div class="mt-0  font-weight-bold" style="font-size:18px;">Prof. Frede Blaabjerg</div>
+              </div>
+            </div>
           </div>
         </div>
-      </article>
+      </div>
 
-      <article class="main">
+      <div class="col-6">
         <!-- Main Body Article -->
          <div class="card">
               <div class="card-header bg-primary text-white"><h4><a data-toggle="collapse" data-target="#b1">General Chair</a></h4></div>
@@ -577,26 +605,33 @@
                     </div>
                   </div>
               </div>
-      </article>
+      </div>
 
-      <article>
+     <div class="col text-center">
         <!-- Right Flank -->
         <div class="widget">
           <h3 class="widget-title">Conference Dates</h3>
           <div class="widget-body">
-            <p>Coming Soon</p>
+            <h3 class="font-weight-bold">16-17</h3><h5 class="font-weight-bold">November 2019</h5>
           </div>
         </div>
         <div class="widget">
           <h3 class="widget-title">Sponsors</h3>
           <div class="widget-body">
-            <img class="sponsor-logo" src="static/img/ias-png.png" alt="IEEE IAS LOGO">
-            <img class="sponsor-logo" src="static/img/pels-logo.png" alt="IEEE PELS LOGO">
-            <img class="sponsor-logo" src="static/img/IEEE-PES.png" alt="IEEE PES LOGO">
-            <img class="sponsor-logo" src="static/img/ies_logo.png" alt="IEEE IES LOGO">
+            <div class="container">
+              <div class="sponsors">
+                <img class="sponsor-logo mx-auto" src="static/img/ias-png.png" alt="IEEE IAS LOGO">
+                <hr>
+                <img class="sponsor-logo mx-auto" src="static/img/pels-logo.png" alt="IEEE PELS LOGO">
+                <hr>
+                <img class="sponsor-logo mx-auto" src="static/img/IEEE-PES.png" alt="IEEE PES LOGO">
+                <hr>
+                <img class="sponsor-logo mx-auto" src="static/img/ies_logo.png" alt="IEEE IES LOGO">
+              </div>
+            </div>
           </div>
         </div>
-      </article>
+      </div>
     </div>
   </section>
 
