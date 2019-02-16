@@ -109,9 +109,10 @@
 
       <div class="col-6">
         <!-- Main Body Article -->
+        <div class="accordian" id="acc">
          <div class="card">
               <div class="card-header bg-primary text-white"><h4><a data-toggle="collapse" data-target="#b1">General Chair</a></h4></div>
-              <div class="card-body" >
+              <div class="card-body" data-parent="#acc" class="collapse show">
                   <div class="media">
                     <img src="static/img/zjaffery.jpg" class="mr-3 img-fluid" width="100px" alt="...">
                     <div class="media-body">
@@ -136,7 +137,7 @@
               </div>
               <div class="card">
               <div class="card-header bg-primary text-white"><h4><a class="collapsed" data-toggle="collapse" data-target="#b3">Organizing Secretary</a></h4></div>
-              <div class="card-body">
+              <div class="card-body" data-parent="#acc" class="collapse">
                   <div class="media">
                     <img src="static/img/ahaque.jpg" class="mr-3 img-fluid" width="100px" alt="...">
                     <div class="media-body">
@@ -151,6 +152,7 @@
               </div> 
               <div class="card">
               <div class="card-header bg-primary text-white"><h4><a class="collapsed" data-toggle="collapse" data-target="#b3">International Advisory Committee</a></h4></div>
+              <div data-parent="#acc" class="collapse">
               <div class="card-body">
                   <div class="media">
                     <img src="static/img/" class="mr-3 img-fluid" width="100px" alt="...">
@@ -215,8 +217,10 @@
                   </div>
               </div>
           </div>
+          </div>
           <div class="card">
               <div class="card-header bg-primary text-white"><h4><a class="collapsed" data-toggle="collapse" data-target="#b3">Technical Programme Committee</a></h4></div>
+              <div data-parent="#acc" class="collapse">
               <div class="card-body">
                   <div class="media">
                     <img src="static/img/ahaque.jpg" class="mr-3 img-fluid" width="100px" alt="...">
@@ -289,9 +293,11 @@
                     </div>
                   </div>
               </div>
+          	</div>
           </div>
           <div class="card">
               <div class="card-header bg-primary text-white"><h4><a class="collapsed" data-toggle="collapse" data-target="#b3">Organizing Committee</a></h4></div>
+              <div data-parent="#acc" class="collapse">
               <div class="card-body">
                   <div class="media">
                     <img src="static/img/ahaque.jpg" class="mr-3 img-fluid" width="100px" alt="...">
@@ -612,6 +618,8 @@
                   </div>
               </div>
             </div>
+          </div>
+        </div>    
       </div>
 
      <div class="col text-center">
