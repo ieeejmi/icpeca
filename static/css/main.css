@@ -87,7 +87,9 @@ nav li {
 }
 
 .main {
+    padding: 0.5em;
     margin: 1em;
+    background-color: #e3f2fd;
 } .main-article-title {
 
 } .main-article-image {
