@@ -87,11 +87,7 @@ nav li {
 }
 
 .main {
-    max-width: 500px;
     margin: 1em;
-    position: relative;
-    display: flex;
-    flex-flow: column;
 } .main-article-title {
 
 } .main-article-image {
