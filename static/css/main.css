@@ -27,8 +27,8 @@ h1 {
 
 /* Hero */
 .hero {
-    height: 250px;
-    background-image: url('../img/delhi-skyline.jpg');
+    height: 480px;
+    /*background-image: url('../img/delhi-skyline.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: hard-light;
