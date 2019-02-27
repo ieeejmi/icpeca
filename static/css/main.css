@@ -30,7 +30,7 @@ h1 {
     height: 480px;
     background-image: url('../img/header.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-blend-mode: hard-light;
     text-align: center;
 } 
