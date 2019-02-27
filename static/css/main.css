@@ -29,7 +29,7 @@ h1 {
 .hero {
     background-image: url('../img/header.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-blend-mode: hard-light;
     text-align: center;
 } 
