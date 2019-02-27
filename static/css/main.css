@@ -27,7 +27,6 @@ h1 {
 
 /* Hero */
 .hero {
-    height: 480px;
     background-image: url('../img/header.png');
     background-repeat: no-repeat;
     background-size: contain;
