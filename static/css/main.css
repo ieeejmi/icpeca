@@ -8,7 +8,9 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
 h1 {
     font-size: 2em;
     font-weight: 800;
@@ -35,6 +37,9 @@ h1 {
 } 
 .navbar-light{
     background-color: #e3f2fd;
+}
+nav li:hover {
+    background-color: #008cff;
 }
 /* Navigation */
 /* nav {
@@ -71,7 +76,8 @@ nav li {
 .widget {
     display: block;
     padding: 0.5em;
-    margin: 1em;
+    margin: auto;
+    width: 100%;
     max-width: 300px;
     background-color: #e3f2fd;
 } .widget-title {
