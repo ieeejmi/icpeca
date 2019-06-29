@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
-
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -116,4 +116,11 @@ footer {
     padding: 2em;
     background-color: #000;
     color: #fff;
+}
+.stroke{
+    -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: black;
+}
+.saira-EC{
+    font-family: 'Saira Extra Condensed', sans-serif;
 }
