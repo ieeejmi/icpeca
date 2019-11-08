@@ -14,6 +14,7 @@ $(window).on('load', ()=>{
 	// match all the anchors on the page with the html file name
    if(pgurl!=''){
     	$('a[href="' + pgurl + '"]').addClass('active');
+    	alert(pgurl);
 	}
 	else{
 		$('a[href="index.html"]').addClass('active');
